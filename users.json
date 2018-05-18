@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Suhas",
+      "Lastname": "Kawale"
+    },
+    {
+      "firstname": "Ravi",
+      "Lastname": "Patil",
+      "id": 2
+    },
+    {
+      "firstname": "Anmol",
+      "Lastname": "Chaware",
+      "id": 3
+    },
+    {
+      "firstname": "Rupesh",
+      "Lastname": "Bhagat",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "firstname": "Panchashil",
+      "Lastname": "Wankhede"
+    },
+    {
+      "id": 6,
+      "firstname": "Mayur",
+      "Lastname": "Shinde"
+    },
+    {
+      "firstname": "Tushar",
+      "Lastname": "Malewar",
+      "id": 7
+    },
+    {
+      "firstname": "sanjay",
+      "Lastname": "datt",
+      "id": 8
+    }
+  ]
+}

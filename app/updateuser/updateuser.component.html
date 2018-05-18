@@ -1,0 +1,20 @@
+<a routerLink="/showdata">Back to User</a>
+
+<h2>Update User </h2>
+<form name="formUserData" #userData="ngForm" (ngSubmit)="updateUser(userData.value)">
+
+  <label>First Name : </label>
+  <input type="text" name="firstname" placeholder="Enter First Name" [(ngModel)]="data.fname"/>
+  <br/>
+  <br/>
+  
+  <label>Last Name : </label>
+  <input type="text" name="Lastname" placeholder="Enter Last Name"  [(ngModel)]="data.lname"/>
+  <br/>
+  <br/>
+  <input type="submit" value="Update User"/>
+</form>
+<!-- <br/>
+<br/>
+<div *ngIf="isUserAdded">User Update Successlly</div> -->
+

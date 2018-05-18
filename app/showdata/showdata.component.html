@@ -1,0 +1,23 @@
+
+<a routerLink="/newuser">Add User</a>
+
+<table border="1" width="25%">
+<tr>
+  <th> Id </th>
+  <th> First Name </th>
+  <th> Last Name </th>
+  <!-- <th> Salery </th> -->
+  <th> Delete </th>
+  <th> Update </th>
+</tr>
+<tr *ngFor = "let u of users">
+  <td> {{u.id}} </td>
+  <td> {{u.firstname | uppercase}} </td>
+  <!-- <td> {{500000.77 | currency:"EUR" : true}} </td> -->
+  <!-- <td> Total Salary {{ 50000 | SalaryPipe}}</td> -->
+  <td> {{u.Lastname | uppercase}} </td>
+  <td (click) = "deleteUser(u.id)">  <a>Delete </a> </td>
+  <td [routerLink] = "['/updateuser',u.id]">  <a>Update </a> </td>
+</tr>
+</table>
+
